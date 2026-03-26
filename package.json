@@ -1,0 +1,25 @@
+{
+  "name": "bitangels-token-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BitAngels Token Assessment - ERC20 with Dividends",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./build ./artifacts ./cache",
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "chai": "^4.3.4",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.0",
+    "rimraf": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
